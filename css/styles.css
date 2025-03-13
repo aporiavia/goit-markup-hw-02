@@ -55,7 +55,6 @@
     background: #2e2f42;
   }
   .title-main {
-    font-weight: 700;
         font-size: 56px;
         line-height: 1.07143;
         letter-spacing: 0.02em;
@@ -74,13 +73,17 @@
   .title-benefits,
   .title-team-name,
   .title-portfolio-descript {
-    font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
   }
-  .title-team-name {
+
+    .list-team-descript {
+    background-color: #fff;
+  }
+  .title-team-name,
+  .text-team-place {
     text-align: center;
   }
 
@@ -88,29 +91,21 @@
   .text-team-place,
   .text-portfolio,
   .text-footer {
-    font-weight: 400;
+  
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
   }
 
-  .text-team-place {
-    text-align: center;
-      }  
-      
-  .text-footer {
-    color: #f4f4fd;
-  }
-
+  
   .section-team {
-    background: #f4f4fd;
+    background-color: #f4f4fd;
   }
 
 
 .title-team,
 .title-portfolio {
-    font-weight: 700;
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
@@ -121,4 +116,6 @@
 .page-footer {
     background-color: #2e2f42;
 }
-
+.text-footer{
+  color: #f4f4fd;
+}
