@@ -13,7 +13,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -56,23 +56,31 @@
   }
   .title-main {
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
   }
 
   .button-main {
-      background: #4d5ae5;
+        font-weight: 500;
+        background-color: #4d5ae5;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        cursor: pointer;
+  }
+  .button-main:hover,
+  .button-main:focus {
+    background-color: #404BBF;
+    background-color: #404BBF;
   }
 
   .title-benefits,
   .title-team-name,
   .title-portfolio-descript {
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -106,10 +114,12 @@
 
 .title-team,
 .title-portfolio {
+        font-weight: 500;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
